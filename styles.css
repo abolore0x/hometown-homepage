@@ -1,0 +1,95 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Ari;
+}
+
+#hero {
+    background-image: url("images/abujaa.jpeg");
+    background-size: cover;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 1px black;
+    padding: 50px;
+    margin-bottom: 0;
+}   
+
+.title {
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px 6px;
+}
+.explore {
+    background-color: #021723;
+    color: wheat;
+    padding: 3px 6px;
+    border-radius: 10px;
+    width: 400px;
+} 
+
+.activities {
+    background-color: bisque;
+}
+
+.activities h3 {
+    padding-top: 20px;
+    margin: 0px 0px 39px 0px;
+    color: #457B9D;
+}
+
+.activity-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.more-activities img:hover {
+    box-shadow: 7px 7px 10px goldenrod;
+    cursor: all-scroll;
+}
+
+.more-activities {
+    width: 200px;
+    padding: 0 5px;
+}
+.activities img {
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+.guide-section {
+    width: 300px;
+    background-color: #023f4f;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    margin: 30px auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 6px 0px 0px #1d1d1c;
+}
+
+.guide-info {
+    padding: 10px;
+}
+.guide-section p {
+    font-style: italic;
+}
+.guide-section img {
+    width: 100px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 30px;
+}
