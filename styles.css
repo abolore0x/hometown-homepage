@@ -24,7 +24,6 @@ body {
     align-items: center;
     text-shadow: 0 0 1px black;
     padding: 50px;
-    margin-bottom: 0;
 }   
 
 .title {
@@ -72,12 +71,12 @@ body {
 }
 .guide-section {
     width: 300px;
-    background-color: #023f4f;
+    background-color: #457B9D;
     border-radius: 10px;
     display: flex;
     color: white;
     margin: 30px auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     box-shadow: 0px 6px 0px 0px #1d1d1c;
 }
 
